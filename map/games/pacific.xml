@@ -1,11 +1,11 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <!-- 
 Originally Coded by Iron__Cross
 Updated by Roger Cooper
 -->
 <game>
-  <info name="Pacific" version="1.0"/>
+  <info name="Pacific" version="1.1"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory Definitions -->
@@ -719,7 +719,7 @@ Updated by Roger Cooper
       <option name="isSea" value="true"/>
       <option name="transportCapacity" value="8"/>
       <option name="attack" value="0"/>
-      <option name="defense" value="0"/>
+      <option name="defense" value="1"/>
       <option name="canBeGivenByTerritoryTo" value="British"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1644,6 +1644,14 @@ Updated by Roger Cooper
 				
 				Credits: Triple_Elk (base-line), iron__cross (integration), ComradeKev (special rules implementations)
 				Updated by Roger Cooper
+
+<br>
+<br>Change Log:
+<br>
+<br>1.1<br> 5/29/21  
+<br>
+Make Transports defend at 1. Discussed here: https://forums.triplea-game.org/topic/2796/possible-to-adjust-piece-values-before-game
+
 				
 									]]></value>
     </property>
