@@ -1,0 +1,3 @@
+map_name: pacific
+games:
+- {game_name: Pacific, file_name: pacific.xml}
